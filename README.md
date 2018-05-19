@@ -11,7 +11,9 @@ This repository was structured as below
     
 2-data
     
-    This folder contain the data file used on analysis, all files was downloaded from "https://www.kaggle.com/c/home-credit-default-risk/data". Each new variable in the files was create to improve analysis, all the new varable is available on file "HomeCredit_columns_description".
+    This folder contain the data file used on analysis, all files was downloaded from 
+    "https://www.kaggle.com/c/home-credit-default-risk/data". Each new variable in the files was create to improve 
+    analysis, all the new varable is available on file "HomeCredit_columns_description".
 
 3-logs
     
