@@ -1,7 +1,7 @@
 
 # Home-credit-default-risk
 
-This is a repository to share the analysis of the home-credit-default-risk from kaggle.com(https://www.kaggle.com/c/home-credit-default-risk).
+This is a repository to share the analysis of the home-credit-default-risk from kaggle.com (https://www.kaggle.com/c/home-credit-default-risk).
 
 This repository was structured as below
 
