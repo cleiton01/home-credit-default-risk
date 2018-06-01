@@ -228,15 +228,37 @@
 174,credit_card_balance.csv,SK_DPD,DPD (Days past due) during the month on the previous credit,
 175,credit_card_balance.csv,SK_DPD_DEF,DPD (Days past due) during the month with tolerance (debts with low loan amounts are ignored) of the previous credit,
 
+
+##
+Criar campo que sumariza a quantodade de aplicacoes que foram realizadas
+Criar campo que sumariza a quantidade de aplicacoes que foram rejeitadas
+Criar campo que sumariza a quantidade de aplicacoes que foram aceitas
+... 
+(cada NAME_CONTRACT_STATUS deverar ter uma entrada sumarizada )
+##
+
 ##
 176,previous_application.csv,SK_ID_PREV ,"ID of previous credit in Home credit related to loan in our sample. (One loan in our sample can have 0,1,2 or more previous loan applications in Home Credit, previous application could, but not necessarily have to lead to credit) ",hashed
+@ como identiicar que ocorrer uma solicitacao de credito mas nao foi aprovada?
+
+
 177,previous_application.csv,SK_ID_CURR,ID of loan in our sample,hashed
 178,previous_application.csv,NAME_CONTRACT_TYPE,"Contract product type (Cash loan, consumer loan [POS] ,...) of the previous application",
 179,previous_application.csv,AMT_ANNUITY,Annuity of previous application,
+# criar um novo campo com o range do valor do campo AMT_ANNUITY.
+
 180,previous_application.csv,AMT_APPLICATION,For how much credit did client ask on the previous application,
+# criar um novo campo com o range do valor do campo AMT_APPLICATION.
+
 181,previous_application.csv,AMT_CREDIT,"Final credit amount on the previous application. This differs from AMT_APPLICATION in a way that the AMT_APPLICATION is the amount for which the client initially applied for, but during our approval process he could have received different amount - AMT_CREDIT",
+# criar um novo campo com o range do valor do campo AMT_CREDIT.
+
 182,previous_application.csv,AMT_DOWN_PAYMENT,Down payment on the previous application,
+@ adiantamento ?? do vaor que foi solicitado ou do pagamento da divida.
+
 183,previous_application.csv,AMT_GOODS_PRICE,Goods price of good that client asked for (if applicable) on the previous application,
+# criar um novo campo com o range do valor do campo AMT_GOODS_PRICE.
+
 184,previous_application.csv,WEEKDAY_APPR_PROCESS_START,On which day of the week did the client apply for previous application,
 185,previous_application.csv,HOUR_APPR_PROCESS_START,Approximately at what day hour did the client apply for the previous application,rounded
 186,previous_application.csv,FLAG_LAST_APPL_PER_CONTRACT,Flag if it was last application for the previous contract. Sometimes by mistake of client or our clerk there could be more applications for one single contract,
@@ -246,17 +268,33 @@
 190,previous_application.csv,RATE_INTEREST_PRIMARY,Interest rate normalized on previous credit,normalized
 191,previous_application.csv,RATE_INTEREST_PRIVILEGED,Interest rate normalized on previous credit,normalized
 192,previous_application.csv,NAME_CASH_LOAN_PURPOSE,Purpose of the cash loan,
-193,previous_application.csv,NAME_CONTRACT_STATUS,"Contract status (approved, cancelled, ...) of previous application",
+@ Verificar os valores deste campo antes de criar um campo numerico para o mesmo, verificar se esta normalzado.
+
+!!!!!193,previous_application.csv,NAME_CONTRACT_STATUS,"Contract status (approved, cancelled, ...) of previous application",
+
 194,previous_application.csv,DAYS_DECISION,Relative to current application when was the decision about previous application made,time only relative to the application
+@ campo nao esta claro sobre seu significado.
+
 195,previous_application.csv,NAME_PAYMENT_TYPE,Payment method that client chose to pay for the previous application,
+# create a new column to convert NAME_PAYMENT_TYPE to numeric value.
+
 196,previous_application.csv,CODE_REJECT_REASON,Why was the previous application rejected,
+@ Verificar caso seja numerico nao deve ser realizado nenhuma acao, caso seja texto criar uma coluna nova para convert para numerico.
+
+
 197,previous_application.csv,NAME_TYPE_SUITE,Who accompanied client when applying for the previous application,
 198,previous_application.csv,NAME_CLIENT_TYPE,Was the client old or new client when applying for the previous application,
 199,previous_application.csv,NAME_GOODS_CATEGORY,What kind of goods did the client apply for in the previous application,
+# create a new column to convert NAME_GOODS_CATEGORY to numeric value.
+
 200,previous_application.csv,NAME_PORTFOLIO,"Was the previous application for CASH, POS, CAR, …",
 201,previous_application.csv,NAME_PRODUCT_TYPE,Was the previous application x-sell o walk-in,
 202,previous_application.csv,CHANNEL_TYPE,Through which channel we acquired the client on the previous application,
+@ verificar, caso seja numerico nao deve ser realizado nada, caso seja texto criar uma coluna nova para convert para numerico.
+
 203,previous_application.csv,SELLERPLACE_AREA,Selling area of seller place of the previous application,
+@ verificar, enter os valores presente neste campo para entao decidir o que fazer, o campo pode ser convertido para numerico, caso necessario cruzar contatos dados de geolocalizacao para definir poossiveis area e proximidades das localidades.
+
 204,previous_application.csv,NAME_SELLER_INDUSTRY,The industry of the seller,
 205,previous_application.csv,CNT_PAYMENT,Term of previous credit at application of the previous application,
 206,previous_application.csv,NAME_YIELD_GROUP,Grouped interest rate into small medium and high of the previous application,grouped
@@ -278,3 +316,4 @@
 219,installments_payments.csv,DAYS_ENTRY_PAYMENT,When was the installments of previous credit paid actually (relative to application date of current loan),time only relative to the application
 220,installments_payments.csv,AMT_INSTALMENT,What was the prescribed installment amount of previous credit on this installment,
 221,installments_payments.csv,AMT_PAYMENT,What the client actually paid on previous credit on this installment,
+˜
