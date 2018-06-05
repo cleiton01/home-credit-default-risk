@@ -13,18 +13,18 @@
 7. Desenvolvimento
     
     - Identificar padroes aplicaveis no desenvolvimentos para melhorar consumo de memoria.
-    - Criar todos metodos de classificacao que poderao ser utilizados.
-    - Criar todos metodos de regressao que poderao ser utilizados.
-    - Criar todos metodos de agrupamento(clustering) que poderao ser utilizados.
-    - Criar os metodos de comparacao dos resultados obtidos pelos metodos de classificacao.
-    - Criar os metodos de comparacao dos resultados obtidos pelos metodos de regressa.
-    - Criar os metodos de comparacao dos resultados obtidos peloes metodos de agrupamento(clustering).
-    - Criar os metodos de compara dos resultasos obtidos pelos metodos de classificacao x metodos de regressao.
-    - Criar os metodos de compara dos resultasos obtidos pelos metodos de classificacao x metodos de agrupamento.
-    - Criar os metodos de compara dos resultasos obtidos pelos metodos de regressao x metodos de agrupamento.
-    - Criar os metodos para testar os hyperparameter dos metodos de classificacao.
-    - Criar os metodos para testar os hyperparameter dos metodos de regressao.
-    - Criar os metodos para testar os hyperparameter dos metodos de agrupamento.
+    - Criar todos __metodos de classificacao__ que poderao ser utilizados.
+    - Criar todos __metodos de regressao__ que poderao ser utilizados.
+    - Criar todos __metodos de agrupamento(clustering)__ que poderao ser utilizados.
+    - Criar os __metodos de comparacao__ dos resultados obtidos pelos metodos de __classificacao__.
+    - Criar os __metodos de comparacao__ dos resultados obtidos pelos metodos de __regressa__.
+    - Criar os __metodos de comparacao__ dos resultados obtidos peloes metodos de __agrupamento__.
+    - Criar os __metodos de comparacao__ dos resultasos obtidos pelos __metodos de classificacao x metodos de regressao__.
+    - Criar os __metodos de comparacao__ dos resultasos obtidos pelos __metodos de classificacao x metodos de agrupamento__.
+    - Criar os __metodos de comparacao__ dos resultasos obtidos pelos __metodos de regressao x metodos de agrupamento__.
+    - Criar os __metodos para testar__ os __hyperparameter__ dos metodos de __classificacao__.
+    - Criar os __metodos para testar__ os __hyperparameter__ dos metodos de __regressao__.
+    - Criar os __metodos para testar__ os __hyperparameter__ dos metodos de __agrupamento__.
 
 ## DONE 
 
