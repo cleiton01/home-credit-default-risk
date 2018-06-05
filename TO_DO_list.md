@@ -12,14 +12,24 @@
 
 7. Desenvolvimento
     
-    - 7.1 Identificar padroes aplicaveis no desenvolvimentos para melhorar consumo de memoria.
-    - 7.2 Criar todos metodos de classificacao que poderao ser utilizados.
-    - 7.3 Criar todos metodos de regressao que poderao ser utilizados.
-    - 7.4 Criar os metodos de comparacao dos resultados obtidos pelos metodos de classificacao.
-    - 7.5 Criar os metodos de comparacao dos resultados obtidos pelos metodos de regressa.
-    - 7.6 Criar os metodos de compara dos resultasos obtidos pelos metodos de classificacao x metodos de regressao.
-    - 7.7 Criar os metodos para testar os hyperparameter dos metodos de classificacao.
-    - 7.8 criar os metodos para testar os hyperparameter dos metodos de regressao.  
+    - Identificar padroes aplicaveis no desenvolvimentos para melhorar consumo de memoria.
+    
+    - Criar todos metodos de classificacao que poderao ser utilizados.
+    - Criar todos metodos de regressao que poderao ser utilizados.
+    - Criar todos metodos de agrupamento(clustering) que poderao ser utilizados.
+    
+    - Criar os metodos de comparacao dos resultados obtidos pelos metodos de classificacao.
+    - Criar os metodos de comparacao dos resultados obtidos pelos metodos de regressa.
+    - Criar os metodos de comparacao dos resultados obtidos peloes metodos de agrupamento(clustering).
+    
+    - Criar os metodos de compara dos resultasos obtidos pelos metodos de classificacao x metodos de regressao.
+    - Criar os metodos de compara dos resultasos obtidos pelos metodos de classificacao x metodos de agrupamento.
+    - Criar os metodos de compara dos resultasos obtidos pelos metodos de regressao x metodos de agrupamento.
+    
+    - Criar os metodos para testar os hyperparameter dos metodos de classificacao.
+    - Criar os metodos para testar os hyperparameter dos metodos de regressao.
+    - Criar os metodos para testar os hyperparameter dos metodos de agrupamento.
+    
 
 ## DONE 
 
