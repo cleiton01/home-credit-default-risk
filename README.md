@@ -5,20 +5,31 @@ This is a repository to share the analysis of the home-credit-default-risk from 
 
 This repository was structured as below
 
-1-script
+# Directory structere
 
-    This folder contain all script file that will be used to discover new insight from this project.
+- 1-script
+
+        This folder contain all script file that will be used to discover new insight from this project.
     
-2-data
+- 2-data
     
-    This folder contain the data file used on analysis, all files was downloaded from 
-    "https://www.kaggle.com/c/home-credit-default-risk/data". Each new column on the files was create to improve 
-    analysis, all the new columns is available on file "HomeCredit_columns_description".
+        This folder contain the data file used on analysis, all files was downloaded from 
+        "https://www.kaggle.com/c/home-credit-default-risk/data". Each new column on the files was create to improve 
+        analysis, all the new columns is available on file "HomeCredit_columns_description".
 
-3-logs
+- 3-logs
     
-    This folfer was created to store all logs o execution, this is userfull to identify the possible performance problem.
+        This folfer was created to store all logs o execution, this is userfull to identify the possible performance problem.
 
-4-config
+- 4-config
 
-    This folder was created to store all configurable parameter that will be exposed.
+        This folder was created to store all configurable parameter that will be exposed.
+    
+
+# Environemnt
+    To manke more easy to reproduce the result presente here, all python libraries used will be available at "4-config/config_linux_env.yml" and could be used to create a new conda env.
+
+    - Linux environment
+        conda env create -f config_linux_env.yml
+        conda source activate hcdr-project
+
