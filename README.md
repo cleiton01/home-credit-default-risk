@@ -26,10 +26,12 @@ This repository was structured as below
         This folder was created to store all configurable parameter that will be exposed.
     
 
-# Environemnt
-    To manke more easy to reproduce the result presente here, all python libraries used will be available at "4-config/config_linux_env.yml" and could be used to create a new conda env.
+# Environment
 
+    To manke more easy to reproduce the result presente here, all python libraries used will be available at "4-config/config_linux_env.yml" and could be used to create a new conda env.
+        
     - Linux environment
+        ```
         conda env create -f config_linux_env.yml
         conda source activate hcdr-project
-
+        ```
