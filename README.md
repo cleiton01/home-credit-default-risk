@@ -32,7 +32,7 @@ This repository was structured as below
 To manke more easy to reproduce the result presente here, all python libraries used will be available at "4-config/config_linux_env.yml" and could be used to create a new conda env.
 
 - Linux environment
-        ```
-        conda env create -f config_linux_env.yml
-        conda source activate hcdr-project
-        ```
+```
+    conda env create -f config_linux_env.yml
+    conda source activate hcdr-project
+```
