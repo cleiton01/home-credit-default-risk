@@ -18,7 +18,7 @@
     - Criar todos __metodos de agrupamento(clustering)__ que poderao ser utilizados.
     - Criar os __metodos de comparacao__ dos resultados obtidos pelos metodos de __classificacao__.
     - Criar os __metodos de comparacao__ dos resultados obtidos pelos metodos de __regressa__.
-    - Criar os __metodos de comparacao__ dos resultados obtidos peloes metodos de __agrupamento__.
+    - Criar os __metodos de comparacao__ dos resultados obtidos pelos metodos de __agrupamento__.
     - Criar os __metodos de comparacao__ dos resultasos obtidos pelos __metodos de classificacao x metodos de regressao__.
     - Criar os __metodos de comparacao__ dos resultasos obtidos pelos __metodos de classificacao x metodos de agrupamento__.
     - Criar os __metodos de comparacao__ dos resultasos obtidos pelos __metodos de regressao x metodos de agrupamento__.
@@ -33,7 +33,7 @@
 2. Identificar campos que devem ser classificos por range de valor.
 
 3. Definir qual linguagem sera utilizada. 
-    - Python
+    - __Python__
     
 4. Definier quais bibliotecas utilizadas e versao das mesmas serao utilizadas.
     - A lista completa estara disponivel no diretorio "4-config/config_linux_env.yml"
