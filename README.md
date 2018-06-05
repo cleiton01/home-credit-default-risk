@@ -5,7 +5,7 @@ This is a repository to share the analysis of the home-credit-default-risk from 
 
 This repository was structured as below
 
-# Directory structere
+# Directory structure
 
 - 1-script
 
@@ -24,14 +24,14 @@ This repository was structured as below
 - 4-config
 
         This folder was created to store all configurable parameter that will be exposed.
+        This directory will also contain environment settings that are required for all process analysis.
     
 
 # Environment
 
-    To manke more easy to reproduce the result presente here, all python libraries used will be available at "4-config/config_linux_env.yml" and could be used to create a new conda env.
-        
-    - Linux environment
+To manke more easy to reproduce the result presente here, all python libraries used will be available at "4-config/config_linux_env.yml" and could be used to create a new conda env.
+
+- Linux environment
         ```
         conda env create -f config_linux_env.yml
         conda source activate hcdr-project
-        ```
