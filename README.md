@@ -35,3 +35,4 @@ To manke more easy to reproduce the result presente here, all python libraries u
         ```
         conda env create -f config_linux_env.yml
         conda source activate hcdr-project
+        ```
