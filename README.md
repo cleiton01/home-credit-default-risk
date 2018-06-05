@@ -7,7 +7,7 @@ This is a repository to share the analysis of the home-credit-default-risk from 
 
 # Directory structure
     
-    This repository was structured as below:
+   This repository was structured as below:
     
 - 1-script
 
