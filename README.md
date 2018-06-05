@@ -31,12 +31,10 @@ This is a repository to share the analysis of the home-credit-default-risk from 
 
 # Environment
 
-To manke more easy to reproduce the result presente here, all python libraries used will be available at __"4-config/config_linux_env.yml"__ and could be used to create a new conda env.
+To make more easy to reproduce the result presente here, all python libraries used will be available at __"4-config/config_linux_env.yml"__ and could be used to create a new conda env.
 
 - Linux environment
 ```
     conda env create -f config_linux_env.yml
     conda source activate hcdr-project
 ```
-
-        This folder contain the data file used on analysis, all files was downloaded from 
