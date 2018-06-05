@@ -31,6 +31,6 @@
     - Python
     
 4. Definier quais bibliotecas utilizadas e versao das mesmas serao utilizadas.
-    - A lista completa estara disponivel no diretorio "/4-config/config_linux_env.yml"
+    - A lista completa estara disponivel no diretorio "4-config/config_linux_env.yml"
     
     
