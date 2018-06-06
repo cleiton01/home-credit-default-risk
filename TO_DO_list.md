@@ -10,7 +10,7 @@
   
 6. Separa os campos que inicialmente seram utilizados pelos algoritmos.
 
-.7. Desenvolvimento
+7. Desenvolvimento
         
     - Criar todos __metodos de classificacao__ que poderao ser utilizados.
     - Criar todos __metodos de regressao__ que poderao ser utilizados.
@@ -36,6 +36,9 @@
     
 4. Definier quais bibliotecas utilizadas e versao das mesmas serao utilizadas.
     - A lista completa estara disponivel no diretorio "4-config/config_linux_env.yml"
+    
+5.
+6.
     
 7. Desenvolvimento
     
