@@ -10,7 +10,7 @@
   
 6. Separa os campos que inicialmente seram utilizados pelos algoritmos.
 
-7. Desenvolvimento
+.7. Desenvolvimento
         
     - Criar todos __metodos de classificacao__ que poderao ser utilizados.
     - Criar todos __metodos de regressao__ que poderao ser utilizados.
