@@ -11,8 +11,7 @@
 6. Separa os campos que inicialmente seram utilizados pelos algoritmos.
 
 7. Desenvolvimento
-    
-    - Identificar padroes aplicaveis no desenvolvimentos para melhorar consumo de memoria.
+        
     - Criar todos __metodos de classificacao__ que poderao ser utilizados.
     - Criar todos __metodos de regressao__ que poderao ser utilizados.
     - Criar todos __metodos de agrupamento(clustering)__ que poderao ser utilizados.
@@ -38,4 +37,8 @@
 4. Definier quais bibliotecas utilizadas e versao das mesmas serao utilizadas.
     - A lista completa estara disponivel no diretorio "4-config/config_linux_env.yml"
     
+7. Desenvolvimento
     
+    - Identificar padroes aplicaveis no desenvolvimentos para melhorar consumo de memoria.
+    
+        Utilizando singleton na leitura do data_set é possivel realizar diferentes metodos de analise no mesmo momento, sem a necessidade de criar varias instancias do data_set na memoria evitando assim um consumo desnecessario de memoria.  Isto possibilita realizar a criacao dos novos campos em um unico objeto em memoria que sera utilizado por todos metodos em paralelo, com isso tambem sera reduzido o tempo de utilizacao de CPU para incluir mais informacoes dentro do data_set.    
