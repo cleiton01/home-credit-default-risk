@@ -13,7 +13,6 @@
 7. Desenvolvimento
         
     - Criar todos __metodos de classificacao__ que poderao ser utilizados.
-    - Criar todos __metodos de regressao__ que poderao ser utilizados.
     - Criar todos __metodos de agrupamento(clustering)__ que poderao ser utilizados.
     - Criar os __metodos de comparacao__ dos resultados obtidos pelos metodos de __classificacao__.
     - Criar os __metodos de comparacao__ dos resultados obtidos pelos metodos de __regressa__.
@@ -44,4 +43,8 @@
     
     - Identificar padroes aplicaveis no desenvolvimentos para melhorar consumo de memoria.
     
-        Utilizando singleton na leitura do data_set é possivel realizar diferentes metodos de analise no mesmo momento, sem a necessidade de criar varias instancias do data_set na memoria evitando assim um consumo desnecessario de memoria.  Isto possibilita realizar a criacao dos novos campos em um unico objeto em memoria que sera utilizado por todos metodos em paralelo, com isso tambem sera reduzido o tempo de utilizacao de CPU para incluir mais informacoes dentro do data_set.    
+        Utilizando singleton na leitura do data_set é possivel realizar diferentes metodos de analise no mesmo momento, sem a necessidade de criar varias instancias do data_set na memoria evitando assim um consumo desnecessario de memoria.  Isto possibilita realizar a criacao dos novos campos em um unico objeto em memoria que sera utilizado por todos metodos em paralelo, com isso tambem sera reduzido o tempo de utilizacao de CPU para incluir mais informacoes dentro do data_set.  
+        
+    - Criar todos __metodos de regressao__ que poderao ser utilizados.
+    
+        Foi criado o arquivo __"1-scripts/2-ML/regression_model.py"__ contendo todos os modelos que serao utilizados para regressao.
