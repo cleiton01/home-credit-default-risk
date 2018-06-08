@@ -1,16 +1,16 @@
 
 ## TO DO
 
-4. Seprar todos os campos numericos dos campos texto.
+5. Seprar todos os campos numericos dos campos texto.
 
-5. Pegar a quantidade de valores distintos por campo.
+6. Pegar a quantidade de valores distintos por campo.
     - Campos com um numero elevado de itens distintos devera ser analisado para verificar se presia de uma classificao por range de valor.
     - Campos com um numero baixo de valores distintos devera ser analisado para verificar se precisa de uma conversao para numerico.
     - Campos com um numero baixo de valores distintos devera ser analisado para verificar se precisa de uma classificacao por range de valor.
   
-6. Separa os campos que inicialmente seram utilizados pelos algoritmos.
+7. Separa os campos que inicialmente seram utilizados pelos algoritmos.
 
-7. Desenvolvimento
+8. Desenvolvimento
         
     - Criar todos __metodos de classificacao__ que poderao ser utilizados.
     - Criar todos __metodos de agrupamento(clustering)__ que poderao ser utilizados.
@@ -38,8 +38,8 @@
     
 5.
 6.
-    
-7. Desenvolvimento
+7.   
+8. Desenvolvimento
     
     - Identificar padroes aplicaveis no desenvolvimentos para melhorar consumo de memoria.
     
