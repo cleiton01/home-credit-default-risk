@@ -38,3 +38,25 @@ To make more easy to reproduce the result presente here, all python libraries us
     conda env create -f config_linux_env.yml
     conda source activate hcdr-project
 ```
+    
+After create a new conda enviroment it's necessary create a new ipkernel, juste follow the next step bellow to do that.
+    
+- Start conda enviroment
+```
+    source activate hcdr-project
+```
+   
+- Install ipykernel on conda enviroment   
+```
+    conda install ipykernel
+``` 
+
+- Create a new ipkernel.
+```
+    python -m ipykernel install --user --name hcdr-project --display-name hcdr-project
+```
+
+
+
+
+
