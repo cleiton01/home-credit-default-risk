@@ -15,3 +15,32 @@ class Read(object):
             data = read_data.get(file)
         
         return data
+    
+    def teste(self):
+        
+        
+        for file in 'C:/`:
+            self.exec_file(file)
+            
+    def exec_file(self, file):
+        tmp_file = pd.read_csv(file)
+        
+        tmp_file['COD_CLIENTE'] = 0
+        
+        
+    def check_valid_email(self,email):
+        invalid_email = ['teste', 'tst', 'telefonica', 'vivo']
+        valid_email = True 
+        
+        tmp = email.split('@')[1]
+        email_to_validit = tmp.split('.')[0]
+        
+        if email_to_validit in invalid_email:
+            valid_email = False
+        return valid_email
+    
+    def get_cod_cliente(self, cnpj)
+        cnpj_txt = cnpj.zfill(14)
+        
+        cod_cli = '40'+cnpj_txt[0:8]
+        return cod_cli
