@@ -44,3 +44,26 @@ class Read(object):
         
         cod_cli = '40'+cnpj_txt[0:8]
         return cod_cli
+    
+    def check_cel_vivo(self, celular_number)
+        
+        con = Connection()
+        
+        sttm = con.get_oracle_coonection('REPLICA_BDA')
+        
+        cursor = sttm.cursor()
+        
+        cursor.execute('SELECT ACM.MSISDN, ACM.ACCOUNT, ACM.PROFILE, ACM.STATE, ACM.PARTITION_KEY FROM ACC_CLIENT_ACCOUNT CA JOIN ACC_CLIENT_MSISDN ACM WHERE ACM.MSISDN = {}'.format(celular_number))
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+    
+    
+    
